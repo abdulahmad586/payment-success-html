@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            max-width: 400px;
+            min-height: 70vh;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .message {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0a7d1c;
+            margin: 20px;
+        }
+
+        .message-small {
+            font-size: 18px;
+            font-weight: normal;
+            color: grey;
+        }
+
+        .icon {
+            font-size: 72px;
+            color: #0a7d1c;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <i class="icon fas fa-check-circle"></i>
+        <div class="message">Payment Successful</div>
+        <div class="message-small">Congratulations on making a successful payment! You may now close this tab.</div>
+    </div>
+</body>
+
+</html>
