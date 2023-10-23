@@ -43,9 +43,9 @@
             color: grey;
         }
 
-        .icon {
-            font-size: 72px;
-            color: #0a7d1c;
+        svg {
+            height: 70px;
+            width: 70px;
         }
 
         @media (max-width: 768px) {
@@ -58,7 +58,18 @@
 
 <body>
     <div class="card">
-        <i class="icon fas fa-check-circle"></i>
+        <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+
+            <g>
+                <title>background</title>
+                <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1" />
+            </g>
+            <g>
+                <title>Layer 1</title>
+                <path id="svg_1" fill="#0a7d1c"
+                    d="m16,0c-8.836,0 -16,7.164 -16,16s7.164,16 16,16s16,-7.164 16,-16s-7.164,-16 -16,-16zm-2.48,23.383l-7.362,-7.363l2.828,-2.828l4.533,4.535l9.617,-9.617l2.828,2.828l-12.444,12.445z" />
+            </g>
+        </svg>
         <div class="message">Payment Successful</div>
         <div class="message-small">Congratulations on making a successful payment! You may now close this tab.</div>
     </div>
